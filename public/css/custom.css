@@ -1,0 +1,31 @@
+/* YOUR CUSTOM CSS */
+.main-menu {
+    position: relative;
+    z-index: 9;
+    width: auto;
+    top: 12px;
+    right: 15px;
+    float: right;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+  }
+  .main-menu li,
+  .main-menu li a {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  .main-menu li a,
+  .main-menu li a div {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 5px 10px;
+    white-space: nowrap;
+  }
